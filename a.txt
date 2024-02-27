@@ -1,0 +1,728 @@
+Which of the following statements accurately describes the process of creating a new user in Azure Active Directory (Azure AD)?
+
+[ ] 1. Utilize the Azure AD PowerShell module to run the New-AzureADUser cmdlet with the required parameters.
+[ ] 2. Create a new user directly within an Azure AD-integrated application by using its management interface.
+[ ] 3. Generate a new user programmatically by making a POST request to the Azure AD Graph API endpoint.
+[X] 4. Use the Azure portal to navigate to the Azure AD tenant, select "Users and groups," and click on "New user" to provide the user's details.
+---------------------------------------------------------------
+Question: Which of the following actions can be performed to manage licenses in Azure AD?
+
+[ ] 1. Assign licenses to security groups
+[X] 2. Assign licenses to individual users
+[ ] 3. Assign licenses to service principals
+[ ] 4. Assign licenses to resource groups
+---------------------------------------------------------------
+Question: A company wants to implement administrative units (AUs) in their Azure Active Directory (Azure AD) environment to delegate administrative control over specific resources. Which of the following statements regarding AUs is correct?
+
+[X] AUs allow for hierarchical delegation of administrative control within Azure AD.
+[ ] AUs are only available for users with global administrator privileges.
+[ ] AUs can be used to manage Azure virtual machines (VMs) within a subscription.
+[ ] AUs are limited to a single Azure AD tenant.
+---------------------------------------------------------------
+You are a Microsoft Azure Administrator and need to manage user properties in Azure Active Directory (Azure AD). You have a requirement to prevent users from changing their display names. Which option should you choose?
+
+[ ] Enable the 'User cannot change display name' option in Azure AD Connect (SaaS)
+[X] Set the 'ImmutableID' attribute to read-only for user objects
+[ ] Configure a custom policy in Azure AD Identity Protection
+[ ] Assign the 'User Administrator' role to the users
+---------------------------------------------------------------
+Which option can be used to manage device identity in Azure Active Directory (Azure AD)?
+
+[X] Azure Active Directory Connect  
+[ ] Azure Active Directory B2C  
+[ ] Azure Information Protection  
+[ ] Azure Security Center  
+---------------------------------------------------------------
+You are responsible for managing user accounts in Azure Active Directory (Azure AD). You need to perform a bulk update to assign a specific license to a group of users. Which option should you choose to accomplish this task?
+
+[ ] Use the Azure AD Portal and manually update the license assignment for each user individually
+
+[X] Use the Azure AD PowerShell module and write a script to update the license assignment for each user individually
+
+[ ] Use Azure Active Directory Connect (Azure AD Connect) and synchronize the user accounts with an on-premises Active Directory (AD) to update the license assignment
+
+[ ] Use Azure Active Directory Domain Services (Azure AD DS) and apply a Group Policy Object (GPO) to update the license assignment for the users
+---------------------------------------------------------------
+You are tasked with managing guest accounts in Azure Active Directory (Azure AD). You need to ensure that guest accounts are automatically removed from the directory after a specific period of time. Which Azure AD feature should you use?
+
+[ ] 1. Conditional access policy
+[X] 2. Access reviews
+[ ] 3. Azure AD B2B collaboration
+[ ] 4. Azure AD Privileged Identity Management (PIM)
+---------------------------------------------------------------
+Question: Which of the following options should you configure to enable self-service password reset for Azure AD users?
+
+[ ] Azure Active Directory Premium P1
+
+[ ] Azure AD Connect
+
+[ ] Azure AD Identity Protection
+
+[X] Azure AD Self-Service Password Reset
+---------------------------------------------------------------
+Question: You need to create a custom role in Azure to grant a user permission to manage virtual machines but restrict their access to storage accounts. Which option should you choose?
+
+[ ] 1. Contributor role
+[ ] 2. Virtual Machine Contributor role
+[ ] 3. Storage Account Contributor role
+[X] 4. Custom role
+---------------------------------------------------------------
+You need to assign a role with the appropriate permissions to a user who will manage virtual machines in an Azure subscription. The user should be able to start, stop, and restart virtual machines. Which role should you assign?
+
+[ ] 1. Reader  
+[X] 2. Virtual Machine Contributor  
+[ ] 3. Contributor  
+[ ] 4. Owner
+---------------------------------------------------------------
+Question: A company has an Azure subscription with multiple resource groups. They want to grant a user named "John" read access to a specific resource group named "RG1". John should be able to view the resources within RG1 but should not have the ability to modify or delete any resources. Which role assignment should be applied to John?
+
+[ ] 1. Owner
+
+[ ] 2. Contributor
+
+[X] 3. Reader
+
+[ ] 4. User Access Administrator
+---------------------------------------------------------------
+Which option can you use to remediate non-compliant resources when using Azure Policy?
+
+[ ] 1. Azure Resource Locks  
+[ ] 2. Azure Policy Definitions  
+[ ] 3. Azure Monitor  
+[X] 4. Azure Policy Remediation  
+---------------------------------------------------------------
+Question: A company wants to prevent accidental deletion of a critical Azure resource. They need to apply a lock to the resource to ensure it cannot be deleted. Which type of lock should they use?
+
+[ ] 1. CanNotDelete lock
+
+[X] 2. ReadOnly lock
+
+[ ] 3. CanNotChange lock
+
+[ ] 4. ReadWrite lock
+---------------------------------------------------------------
+You need to apply tags to multiple Azure resources in your subscription. Which of the following methods can you use to apply tags to the resources?
+
+[ ] Use Azure Policy to automatically apply tags based on predefined rules
+
+[X] Use Azure Resource Manager templates to define and apply tags to the resources
+
+[ ] Use Azure Blueprints to create and enforce tagging standards across the subscription
+
+[ ] Use Azure Cost Management to retroactively apply tags to existing resources
+---------------------------------------------------------------
+Which of the following actions can be performed on a resource group in Azure?
+
+[ ] 1. Create a virtual machine  
+[ ] 2. Modify network security group rules  
+[X] 3. Assign a custom role to a user or group  
+[ ] 4. Create a new subscription  
+---------------------------------------------------------------
+Which of the following actions can be performed by a user assigned the "Billing Reader" role in Azure?
+
+[ ] 1. Create and manage resource groups
+[ ] 2. Assign roles to other users
+[X] 3. View cost and usage information for Azure subscriptions
+[ ] 4. Create and manage virtual machines
+---------------------------------------------------------------
+Which Azure service can you use to manage costs by setting up budgets, creating alerts, and receiving recommendations?
+
+[ ] 1. Azure Monitor
+
+[X] 2. Azure Cost Management and Billing
+
+[ ] 3. Azure Advisor
+
+[ ] 4. Azure Policy
+---------------------------------------------------------------
+Question: A company has multiple Azure subscriptions and wants to implement a centralized governance model using management groups. The company has the following management groups configured:
+
+* Root Management Group
++ Finance Management Group
++ IT Management Group
+
+Which of the following statements accurately describes the relationship between these management groups?
+
+[ ] 1. The Finance Management Group is a child of the IT Management Group.
+[ ] 2. The IT Management Group is a child of the Finance Management Group.
+[X] 3. The Finance Management Group and the IT Management Group are both children of the Root Management Group.
+[ ] 4. The Root Management Group is a child of the Finance Management Group.
+---------------------------------------------------------------Question: A company wants to restrict access to a storage account in Azure Blob storage to a specific virtual network. Which option should be configured to meet this requirement?
+
+[ ] 1. Virtual Network Service Endpoints
+
+[X] 2. Storage Account Firewalls and Virtual Networks
+
+[ ] 3. Network Security Groups (NSGs)
+
+[ ] 4. Virtual Network Gateways
+---------------------------------------------------------------
+You need to configure access to a storage account in Azure. You want to ensure that only clients from specific IP addresses can access the storage account. Which option should you choose?
+
+[ ] Service endpoints  
+[ ] Shared access signatures (SAS)  
+[ ] Azure Private Link  
+[X] Network access control lists (ACLs)  
+---------------------------------------------------------------
+Which of the following statements accurately describes the purpose of a shared access signature (SAS) token in Azure storage?
+
+[X] A SAS token allows temporary access to a specific Azure storage resource with specified permissions.
+[ ] A SAS token grants permanent access to all Azure storage resources within a storage account.
+[ ] A SAS token is used to encrypt and secure data stored in Azure storage.
+[ ] A SAS token provides read-only access to Azure storage containers and blobs.
+---------------------------------------------------------------
+You need to configure a stored access policy for a container in Azure Blob storage. The access policy should allow read access for a duration of 7 days. Which option should you select?
+
+[ ] 1. Full permissions with no duration
+
+[X] 2. Read permissions with a duration of 7 days
+
+[ ] 3. Write permissions with a duration of 30 days
+
+[ ] 4. List permissions with no duration
+---------------------------------------------------------------
+Question: A company wants to ensure secure access to an Azure Storage account by using access keys. The administrator needs to manage the access keys for the storage account. Which of the following options should the administrator choose to manage the access keys?
+
+[ ] 1. Azure Key Vault
+
+[ ] 2. Azure Active Directory (Azure AD)
+
+[X] 3. Azure Storage Explorer
+
+[ ] 4. Azure Monitor
+---------------------------------------------------------------
+Which of the following options can be used to configure Azure AD authentication for a storage account in Azure?
+
+[ ] 1. Azure Active Directory Domain Services  
+[X] 2. Azure Active Directory Managed Service Identity  
+[ ] 3. Azure Active Directory B2C  
+[ ] 4. Azure Active Directory Privileged Identity Management
+---------------------------------------------------------------
+You need to configure storage encryption for an Azure Storage account. Which of the following options should you choose?
+
+[ ] 1. Enable Azure Disk Encryption for the virtual machines using the storage account
+
+[X] 2. Use Azure Storage Service Encryption with a service-managed key
+
+[ ] 3. Implement Azure Private Link for the storage account
+
+[ ] 4. Enable Azure Firewall to secure the storage account
+---------------------------------------------------------------
+A company needs to import a large amount of data into an Azure storage account. They want to use the Azure Import/Export service for this purpose. Which of the following options describes the correct process for creating an import job?
+
+[ ] Generate an import job using the Azure portal, create an Azure Data Box, and then transfer the data to the Azure Data Box.
+
+[ ] Prepare the data on a disk, ship the disk to the Azure data center, and then generate an import job using the Azure portal.
+
+[X] Generate an import job using the Azure portal, prepare the data on a disk, and then ship the disk to the Azure data center.
+
+[ ] Create an Azure Data Box, prepare the data on a disk, and then generate an import job using the Azure portal.
+---------------------------------------------------------------
+You need to upload a large amount of data to an Azure storage account. You want to use a command-line tool that supports parallel transfers and includes features like resume functionality and progress tracking. Which tool should you use?
+
+[ ] Azure Storage Explorer
+
+[X] AzCopy
+
+[ ] Azure Data Box
+
+[ ] Azure File Sync
+---------------------------------------------------------------
+Which Azure Storage redundancy option provides at least 99.999999999% (11 nines) durability of objects over a given year?
+
+[ ] 1. Locally redundant storage (LRS)
+[ ] 2. Zone-redundant storage (ZRS)
+[X] 3. Geo-redundant storage (GRS)
+[ ] 4. Read-access geo-redundant storage (RA-GRS)
+---------------------------------------------------------------
+Question: A company needs to create an Azure file share to store and share files between multiple virtual machines (VMs) in the same Azure region. The company wants to ensure that the file share can be accessed from any VM within the region and can support file encryption at rest. Which option should the company choose to create the Azure file share?
+
+[ ] 1. Premium performance tier with zone-redundant storage (ZRS)
+
+[ ] 2. Standard performance tier with geo-redundant storage (GRS)
+
+[ ] 3. Premium performance tier with read-access geo-redundant storage (RA-GRS)
+
+[X] 4. Standard performance tier with locally redundant storage (LRS)
+---------------------------------------------------------------
+You need to configure Azure Blob Storage to optimize performance for frequently accessed data. Which tier should you choose?
+
+[ ] 1. Archive  
+[ ] 2. Cool  
+[X] 3. Hot  
+[ ] 4. Premium
+---------------------------------------------------------------
+You are configuring storage tiers for your Azure Blob Storage account. You have a requirement to automatically move data that hasn't been accessed in the last 30 days to a cooler storage tier. Which option should you choose?
+
+[ ] 1. Archive tier
+[ ] 2. Hot tier
+[X] 3. Cool tier
+[ ] 4. Premium tier
+---------------------------------------------------------------
+What are the available options for configuring lifecycle management of Azure Blob Storage in Azure?
+
+[ ] 1. Using Azure PowerShell  
+[X] 2. Using Azure Portal  
+[ ] 3. Using Azure Storage Explorer  
+[ ] 4. Using Azure CLI  
+---------------------------------------------------------------
+Question: A company wants to deploy an Azure virtual machine (VM) using an ARM template. They need to modify the template to specify a custom DNS server for the VM. Which property should they include in the template to achieve this?
+
+[ ] 1. dnsSettings
+
+[X] 2. networkProfile
+
+[ ] 3. virtualMachineScaleSet
+
+[ ] 4. virtualNetworkProfile
+---------------------------------------------------------------
+You are responsible for deploying Azure virtual machines (VMs) using Azure Resource Manager templates. You need to specify the location for deploying the VMs in the template. Which property should you include in the template to achieve this?
+
+[ ] 1. "region"  
+[X] 2. "location"  
+[ ] 3. "zone"  
+[ ] 4. "datacenter"  
+---------------------------------------------------------------
+You are a Microsoft Azure Administrator responsible for deploying and managing Azure compute resources. You need to automate the deployment of resources by using templates and save a deployment as an ARM template. Which of the following options allows you to achieve this?
+
+[ ] 1. Azure Blueprints
+
+[X] 2. Azure Resource Manager (ARM) templates
+
+[ ] 3. Azure DevOps
+
+[ ] 4. Azure Automation
+---------------------------------------------------------------
+Question: Which option can be used to automate the deployment of virtual machine (VM) extensions in Azure?
+
+[ ] 1. Azure CLI
+
+[ ] 2. Azure PowerShell
+
+[X] 3. Azure Resource Manager templates
+
+[ ] 4. Azure Functions
+---------------------------------------------------------------
+Question: A company wants to create a virtual machine (VM) in Azure. The VM will be used to host a web application that requires high availability and scalability. Which VM type should the company choose?
+
+[ ] 1. Basic  
+[ ] 2. Standard  
+[X] 3. Premium  
+[ ] 4. Reserved
+---------------------------------------------------------------
+Question: You want to deploy a new virtual machine (VM) in Azure using an image from the Azure Compute Gallery. Which of the following options will you use to accomplish this?
+
+[ ] 1. Azure Resource Manager template
+
+[X] 2. Azure Marketplace
+
+[ ] 3. Custom image
+
+[ ] 4. Shared image gallery
+---------------------------------------------------------------
+You need to configure Azure Disk Encryption for a virtual machine (VM) in Azure. Which of the following options allows you to accomplish this?
+
+[ ] 1. Enable Azure Disk Encryption during VM creation
+[ ] 2. Use Azure Policy to enable Azure Disk Encryption on an existing VM
+[X] 3. Configure Azure Disk Encryption through Azure Security Center
+[ ] 4. Apply Azure Disk Encryption through Azure Backup
+---------------------------------------------------------------
+You have a virtual machine (VM) running in Resource Group A and you need to move it to Resource Group B. Which option should you choose to accomplish this?
+
+[ ] Use the Azure Portal to manually recreate the VM in Resource Group B and then delete the original VM in Resource Group A.  
+[X] Use the Azure PowerShell cmdlets to move the VM from Resource Group A to Resource Group B.  
+[ ] Use the Azure CLI commands to stop the VM in Resource Group A, copy the VHD file to Resource Group B, and then create a new VM using the copied VHD file.  
+[ ] Use the Azure Resource Manager template to deploy a new VM in Resource Group B and specify the existing VM in Resource Group A as the source.
+---------------------------------------------------------------
+You have an Azure virtual machine (VM) running in the East US region. The VM is currently running on a Standard_D2s_v3 size, which has 2 vCPUs and 8 GB of RAM. You need to resize the VM to a size that offers higher CPU and RAM resources without changing the region. Which VM size should you choose?
+
+[X] Standard_D4s_v3: 4 vCPUs, 16 GB RAM  
+[ ] Standard_DS2_v2: 2 vCPUs, 7 GB RAM  
+[ ] Standard_D8s_v3: 8 vCPUs, 32 GB RAM  
+[ ] Standard_D2_v4: 2 vCPUs, 8 GB RAM  
+---------------------------------------------------------------
+Question: A company needs to deploy a virtual machine (VM) in Microsoft Azure and add a data disk to it for storing additional data. The VM is running Windows Server 2019. Which of the following options should the administrator choose to accomplish this?
+
+[ ] 1. Attach a VHD file to the VM
+
+[ ] 2. Attach a blob storage container to the VM
+
+[X] 3. Attach a managed disk to the VM
+
+[ ] 4. Attach an SSD disk to the VM
+---------------------------------------------------------------
+Question: A company wants to deploy virtual machines (VMs) in Azure and needs to configure network settings for the VMs. The company requires that the VMs have a private IP address and be accessible from the internet. Which network configuration option should the administrator choose?
+
+[ ] 1. Use Azure Virtual Network service endpoints  
+[ ] 2. Create a virtual network gateway  
+[X] 3. Assign a public IP address to each VM  
+[ ] 4. Configure Network Security Groups (NSGs) with inbound and outbound rules
+---------------------------------------------------------------
+Question: You are designing an application that requires high availability and fault tolerance. You need to configure the appropriate availability options for the virtual machines (VMs). Which option should you choose?
+
+[ ] 1. Virtual Machine Scale Sets
+
+[X] 2. Availability Sets
+
+[ ] 3. Azure App Service
+
+[ ] 4. Azure Functions
+---------------------------------------------------------------
+Which of the following statements is true regarding Azure Virtual Machine Scale Sets?
+
+[ ] 1. Virtual Machine Scale Sets support manual scaling by setting the desired number of instances.
+[X] 2. Virtual Machine Scale Sets provide automatic scaling based on CPU utilization.
+[ ] 3. Virtual Machine Scale Sets are limited to a maximum of 10 instances.
+[ ] 4. Virtual Machine Scale Sets require Azure Container Service for deployment.
+---------------------------------------------------------------
+Question: A company plans to deploy a web application as an Azure Container Instance (ACI). The application needs to handle a high volume of traffic during peak hours. The company wants to ensure that the ACI scales automatically to meet the increased demand. Which option should the company choose to configure the sizing and scaling for the ACI?
+
+[ ] 1. Azure Kubernetes Service (AKS)
+
+[X] 2. Virtual Machine Scale Sets
+
+[ ] 3. Azure Functions
+
+[ ] 4. Azure Container Instances
+---------------------------------------------------------------
+Question: Which of the following statements accurately describes the configuration options for Azure Container Instances when creating and configuring container groups?
+
+[ ] 1. A container group can be configured with multiple container images but cannot span across multiple regions.
+
+[ ] 2. A container group can be configured with automatic scaling based on CPU utilization but cannot have scheduled scaling.
+
+[X] 3. A container group can be configured to have a public IP address and a custom DNS name label.
+
+[ ] 4. A container group can be configured to have a virtual network integration for secure communication between containers.
+---------------------------------------------------------------
+You are deploying a multi-container application using Azure Container Apps. You need to configure scaling rules for the application. Which option should you choose?
+
+[ ] 1. Azure Logic Apps  
+[X] 2. Azure Kubernetes Service (AKS)  
+[ ] 3. Azure Container Instances (ACI)  
+[ ] 4. Azure Functions
+---------------------------------------------------------------
+You need to configure storage for an Azure Kubernetes Service (AKS) cluster. You want to use Azure Disk as the storage option. Which option should you choose to achieve this?
+[ ] Azure Blob Storage
+[ ] Azure Files
+[ ] Azure Data Lake Storage
+[X] Azure Managed Disks
+---------------------------------------------------------------
+Question: A company wants to deploy an application on Azure Kubernetes Service (AKS) and configure scaling to handle fluctuations in traffic. The application consists of multiple pods, and the company wants to ensure that new pods are automatically added or removed based on CPU utilization. Which option should the company choose to achieve this?
+
+[ ] 1. Virtual Machine Scale Sets (VMSS)
+
+[X] 2. Horizontal Pod Autoscaler (HPA)
+
+[ ] 3. Azure Container Instances (ACI)
+
+[ ] 4. Azure Functions
+---------------------------------------------------------------
+You have deployed an Azure Kubernetes Service (AKS) cluster and need to configure network connections for the cluster. You want to enable outbound internet access for the pods running in the AKS cluster. Which option should you choose?
+
+[ ] 1. Configure a virtual network service endpoint for the AKS subnet  
+[X] 2. Configure an Azure Load Balancer with an outbound rule  
+[ ] 3. Configure an Azure Application Gateway with an HTTP load balancer  
+[ ] 4. Configure a network security group (NSG) with outbound rules
+---------------------------------------------------------------
+You have an existing AKS (Azure Kubernetes Service) cluster that needs to be upgraded to the latest version. You want to perform the upgrade using the Azure CLI. Which command should you use?
+
+[ ] 1. az aks upgrade-cluster --name <cluster_name> --resource-group <resource_group_name> --kubernetes-version <version>
+
+[X] 2. az aks upgrade --name <cluster_name> --resource-group <resource_group_name> --kubernetes-version <version>
+
+[ ] 3. az aks upgrade --resource-group <resource_group_name> --name <cluster_name> --kubernetes-version <version>
+
+[ ] 4. az aks update --name <cluster_name> --resource-group <resource_group_name> --kubernetes-version <version>
+---------------------------------------------------------------
+Question: A company wants to deploy multiple Azure web applications that require different performance and scaling options. Which option should the company choose to meet these requirements?
+
+[ ] 1. Deploy all web applications in the same App Service plan  
+[ ] 2. Use Azure Functions instead of Azure App Service  
+[ ] 3. Use Azure Container Instances to host the web applications  
+[X] 4. Create separate App Service plans for each web application  
+
+Explanation: By creating separate App Service plans for each web application, the company can have more control over the performance and scaling options for each application. Each App Service plan can be configured with different pricing tiers, scaling settings, and geographical locations to meet the specific needs of the web applications. This approach allows better resource management and isolation between the applications.
+---------------------------------------------------------------
+Question: A company wants to ensure that its Azure App Service can automatically scale based on the number of requests and CPU usage. Which scaling option should the administrator configure in the App Service plan?
+
+[ ] 1. Manual scale
+
+[ ] 2. Autoscale by schedule
+
+[X] 3. Autoscale by metric
+
+[ ] 4. Fixed scale
+---------------------------------------------------------------
+You need to deploy an Azure App Service that will host a web application. The web application requires the ability to scale dynamically based on the incoming traffic. Which option should you choose when creating the App Service?
+[ ] Shared
+[ ] Basic
+[X] Standard
+[ ] Premium
+---------------------------------------------------------------
+You need to secure an Azure App Service by restricting access to specific IP addresses. Which option should you configure?
+
+[ ] 1. Configure authentication and authorization settings
+[ ] 2. Enable SSL/TLS certificate
+[ ] 3. Implement Azure Front Door
+[X] 4. Configure IP restrictions
+---------------------------------------------------------------
+Question: A company wants to configure a custom domain name for its Azure App Service. Which of the following steps should they take to achieve this?
+
+[ ] 1. Update the DNS settings of the custom domain to point to the Azure App Service's default domain name.
+
+[ ] 2. Purchase a new SSL certificate for the custom domain from a trusted certificate authority.
+
+[ ] 3. Modify the application code to include the custom domain name in all URLs.
+
+[X] 4. In the Azure portal, navigate to the App Service, select "Custom domains", and add a custom domain name.
+---------------------------------------------------------------
+You need to configure backup for an Azure App Service. Which option should you choose?
+
+[ ] 1. Azure Site Recovery
+[X] 2. Azure Backup Service
+[ ] 3. Azure Monitor
+[ ] 4. Azure Storage
+---------------------------------------------------------------
+You have deployed an Azure App Service and need to configure its networking settings. You want to ensure that the App Service is accessible only from within a virtual network. Which option should you choose?
+
+[ ] 1. Public endpoint  
+[X] 2. Regional VNet Integration  
+[ ] 3. Point-to-Site (P2S) VPN  
+[ ] 4. Hybrid Connections  
+---------------------------------------------------------------
+Question: A company wants to deploy an Azure App Service and configure the deployment settings. They want to enable automatic scaling based on CPU usage and set the minimum and maximum number of instances. Which option should they select?
+
+[ ] Deployment Slots  
+[ ] Scale Up  
+[X] Scale Out (App Service plan)  
+[ ] Traffic Manager
+---------------------------------------------------------------
+Which of the following options accurately describes the purpose of a subnet in Azure virtual networking?
+
+[ ] 1. A subnet defines the size of the virtual network in terms of available IP addresses.
+[X] 2. A subnet is used to divide a virtual network into smaller address spaces for better network management.
+[ ] 3. A subnet determines the geographical region where the virtual network is deployed.
+[ ] 4. A subnet is a virtual machine instance running in Azure.
+---------------------------------------------------------------
+Which of the following statements about virtual network peering in Microsoft Azure is correct?
+
+[ ] 1. Virtual network peering allows communication between virtual networks in different Azure regions.
+
+[ ] 2. Virtual network peering is a one-way connection, allowing traffic to flow in only one direction.
+
+[ ] 3. Virtual network peering requires a virtual network gateway to establish the connection.
+
+[X] 4. Virtual network peering can be established between a virtual network and an on-premises network.
+---------------------------------------------------------------
+Which of the following options can be used to assign a private IP address to an Azure virtual machine (VM) in a virtual network?
+
+[ ] 1. Dynamic allocation
+[ ] 2. Reserved IP address
+[X] 3. Static allocation
+[ ] 4. DHCP reservation
+---------------------------------------------------------------
+Question: A company has a virtual network in Azure and needs to configure user-defined network routes. The company wants to ensure that traffic from the virtual network to an on-premises network goes through a specific virtual appliance. Which option should the company use to configure the user-defined network route?
+
+[ ] 1. Azure Load Balancer
+[ ] 2. Network Security Group
+[X] 3. Virtual Network Gateway
+[ ] 4. Application Gateway
+---------------------------------------------------------------
+You have deployed a virtual network (VNet) in Azure and need to configure Azure DNS for name resolution within the VNet. Which of the following steps should you take?
+
+[ ] Configure a DNS forwarder to point to an external DNS server
+
+[X] Create a DNS zone within Azure DNS and add DNS records for the resources in the VNet
+
+[ ] Modify the network security group (NSG) rules to allow DNS traffic
+
+[ ] Enable the "DNS resolution within virtual network" setting in the VNet configuration
+---------------------------------------------------------------
+You need to secure network traffic to and from a virtual machine (VM) in Azure. Which of the following options would you use?
+
+[ ] 1. Virtual network service endpoints  
+[X] 2. Network security group (NSG)  
+[ ] 3. Traffic Manager profiles  
+[ ] 4. Azure Application Gateway
+---------------------------------------------------------------
+Question: A company wants to evaluate the effectiveness of the security rules applied to a virtual network in Azure. Which of the following options can be used to accomplish this?
+
+[ ] 1. Azure Security Center
+[X] 2. Azure Network Watcher
+[ ] 3. Azure Traffic Manager
+[ ] 4. Azure Application Gateway
+---------------------------------------------------------------
+Which of the following statements accurately describes Azure Bastion?
+
+[ ] 1. Azure Bastion is a virtual network gateway that allows you to establish point-to-site VPN connections from on-premises networks to Azure virtual networks.
+
+[X] 2. Azure Bastion provides secure access to Azure virtual machines (VMs) over the internet using Remote Desktop Protocol (RDP) or Secure Shell (SSH) connections.
+
+[ ] 3. Azure Bastion is a service that allows you to secure access to your Azure virtual networks by integrating with Azure Active Directory (Azure AD) for user authentication.
+
+[ ] 4. Azure Bastion is a cloud-based firewall that filters network traffic between Azure virtual networks and the internet.
+---------------------------------------------------------------
+Question: A company wants to restrict access to an Azure Storage account only from its virtual network. They want to ensure that the data transfer between the virtual network and the storage account remains on the Azure backbone network and does not traverse the public internet. Which option should the company use to achieve this?
+
+[ ] 1. Network Security Group (NSG)
+[X] 2. Virtual Network Service Endpoints
+[ ] 3. Virtual Network peering
+[ ] 4. Network Virtual Appliance (NVA)
+---------------------------------------------------------------
+Which of the following options can be used to configure secure access to virtual
+networks by using private endpoints in Microsoft Azure?
+
+[ ] Azure Virtual Network Gateways  
+
+[ ] Azure ExpressRoute  
+
+[ ] Azure Load Balancer  
+
+[X] Azure Virtual Network Service Endpoints
+---------------------------------------------------------------
+Question: A company wants to use Azure Application Gateway to load balance incoming traffic to multiple backend servers. The company requires SSL termination at the gateway to offload the decryption process from the backend servers. Which configuration option should the administrator choose?
+
+[ ] 1. Use the Basic SKU of Azure Application Gateway  
+[X] 2. Use the Standard_v2 SKU of Azure Application Gateway  
+[ ] 3. Use the WAF_v2 SKU of Azure Application Gateway  
+[ ] 4. Use Azure Traffic Manager instead of Azure Application Gateway  
+---------------------------------------------------------------
+A company wants to distribute incoming traffic across multiple virtual machines in an Azure virtual network. They require a load balancer that can balance traffic for both TCP and UDP protocols. Which load balancer type should they choose?
+
+[ ] 1. Internal Load Balancer (ILB)
+[ ] 2. Public Load Balancer (PLB)
+[X] 3. Application Gateway
+[ ] 4. Traffic Manager
+---------------------------------------------------------------
+You are troubleshooting an issue with load balancing in Microsoft Azure. After reviewing the configuration, you discover that one of the backend pool instances is not receiving any traffic. Which of the following could be a possible cause for this issue?
+
+[ ] The load balancing rule associated with the backend pool instance is misconfigured  
+[ ] The frontend IP configuration associated with the backend pool instance is missing or incorrect  
+[X] The health probe associated with the backend pool instance is failing  
+[ ] The network security group (NSG) associated with the backend pool instance is blocking incoming traffic
+---------------------------------------------------------------
+Question: Which Azure service can be used to monitor on-premises connectivity in a virtual networking environment?
+
+[ ] 1. Azure Monitor
+
+[ ] 2. Azure Traffic Manager
+
+[X] 3. Azure Network Watcher
+
+[ ] 4. Azure Application Gateway
+---------------------------------------------------------------
+Question: Which of the following actions can you perform using Azure Monitor for networks in order to monitor virtual networking in Azure?
+
+[X] Monitor network traffic flows between virtual machines
+
+[ ] Monitor virtual machine disk usage
+
+[ ] Monitor CPU usage of virtual machines
+
+[ ] Monitor virtual machine network latency
+---------------------------------------------------------------
+You need to monitor the network traffic flow between two virtual machines in Azure. Which Azure Network Watcher feature should you use?
+
+[ ] 1. Traffic Analytics
+[X] 2. Connection Monitor
+[ ] 3. Network Performance Monitor
+[ ] 4. Network Security Group
+---------------------------------------------------------------
+You are responsible for managing the virtual networking in Microsoft Azure. You have configured a virtual network (VNet) that connects to an on-premises network through an Azure virtual network gateway. However, you are experiencing connectivity issues between the on-premises network and the VNet. You suspect that the issue might be related to the network gateway. What should you do to troubleshoot this issue?
+
+[ ] Verify the configuration of the virtual network gateway
+
+[ ] Check the firewall settings of the on-premises network
+
+[ ] Verify the DNS settings of the virtual network
+
+[X] Restart the virtual machines in the VNet
+---------------------------------------------------------------
+You have deployed a virtual machine (VM) in Microsoft Azure. The VM is unable to establish network connectivity to other resources in the virtual network. You suspect that the issue might be related to Network Security Groups (NSGs). Which of the following actions can you take to troubleshoot the connectivity issue?
+[ ] Verify the NSG rules for inbound and outbound traffic allow the necessary protocols and ports
+[ ] Restart the virtual machine to reset the network stack and establish a new network connection
+[ ] Modify the virtual network's address space to ensure it does not overlap with other networks
+[ ] Increase the size of the virtual machine to allocate more resources for network connectivity
+[X] Verify the NSG rules for inbound and outbound traffic allow the necessary protocols and ports
+---------------------------------------------------------------
+Question: A company has deployed a web application in Azure and wants to monitor the performance of the application by tracking the average response time. Which Azure Monitor metric should be used to accomplish this?
+
+[ ] 1. Requests/Failed
+
+[ ] 2. Requests/Sec
+
+[ ] 3. Average CPU Percentage
+
+[X] 4. Average Response Time
+---------------------------------------------------------------
+Which option allows you to configure Azure Monitor Logs to collect diagnostic logs from Azure virtual machines?
+
+[X] Azure Log Analytics  
+[ ] Azure Application Insights  
+[ ] Azure Advisor  
+[ ] Azure Security Center  
+---------------------------------------------------------------
+Which query language is commonly used to retrieve and analyze logs in Azure Monitor?
+
+[ ] 1. SQL
+[ ] 2. JSON
+[X] 3. KQL (Kusto Query Language)
+[ ] 4. PowerShell
+---------------------------------------------------------------
+Which of the following options allows you to set up an alert in Azure Monitor when the CPU utilization of a virtual machine exceeds a certain threshold?
+
+[ ] 1. Azure Logic Apps  
+[ ] 2. Azure Automation  
+[ ] 3. Azure Log Analytics  
+[X] 4. Azure Monitor  
+---------------------------------------------------------------
+Question: A company wants to monitor the performance and health of their virtual machines (VMs) in Azure. They want to gather insights into the VMs' resource utilization, availability, and health. Which feature of Azure should the company configure for this purpose?
+
+[ ] 1. Azure Application Insights  
+[ ] 2. Azure Log Analytics  
+[ ] 3. Azure Diagnostics  
+[X] 4. Azure Monitor  
+---------------------------------------------------------------
+You need to create an Azure Recovery Services vault to enable backup and recovery for your Azure resources. Which of the following steps should you perform?
+
+[ ] 1. Create a new virtual network in the Azure portal
+[X] 2. Install the Azure Backup agent on the virtual machines you want to protect
+[ ] 3. Enable diagnostics settings for the Azure Recovery Services vault
+[ ] 4. Create a new Azure Blob storage account
+---------------------------------------------------------------
+Which of the following actions is NOT required to create an Azure Backup vault?
+
+[ ] Assign the Backup Contributor role to the user or service principal.
+[ ] Install the Azure Backup agent on the source machine.
+[ ] Configure the Azure Backup vault settings.
+[X] Create a Recovery Services vault in the Azure portal.
+---------------------------------------------------------------
+Question: A company wants to implement a backup policy for their Azure virtual machines (VMs). The policy should ensure that backups are created daily and retained for 30 days. Which option should the company choose to configure the backup policy?
+
+[ ] 1. Configure a backup policy with an hourly schedule and a retention period of 7 days
+[ ] 2. Configure a backup policy with a weekly schedule and a retention period of 14 days 
+[X] 3. Configure a backup policy with a daily schedule and a retention period of 30 days
+[ ] 4. Configure a backup policy with a monthly schedule and a retention period of 60 days
+---------------------------------------------------------------
+You need to configure a backup schedule for a virtual machine (VM) in Azure using Azure Backup. Which option should you choose to meet the requirement?
+
+[ ] 1. Daily  
+[ ] 2. Weekly  
+[X] 3. Hourly  
+[ ] 4. Monthly  
+---------------------------------------------------------------
+You need to configure Azure Site Recovery for a virtual machine (VM) running in Azure. Which of the following steps should you perform first?
+
+[ ] Install the Azure Site Recovery Provider on the on-premises VM
+[X] Configure a Recovery Services vault in the Azure portal
+[ ] Deploy an Azure Site Recovery Configuration Server
+[ ] Enable replication for the VM in the Azure portal
+---------------------------------------------------------------
+Which Azure service can be used to perform a failover to a secondary region in the event of a disaster?
+
+[ ] 1 Azure Backup
+[X] 2 Azure Site Recovery
+[ ] 3 Azure Monitor
+[ ] 4 Azure Traffic Manager
+---------------------------------------------------------------
